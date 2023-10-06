@@ -10,3 +10,5 @@ cities = [
     'Mumbai', 
     'Buenos Aires',
 ]
+
+print(cities[3])

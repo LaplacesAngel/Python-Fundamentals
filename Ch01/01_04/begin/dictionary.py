@@ -10,3 +10,6 @@ california_symbols = {
     'flower': 'California poppy',
     'fruit': 'Avocado',
 }
+
+for x in california_symbols:
+    print(california_symbols[x])
