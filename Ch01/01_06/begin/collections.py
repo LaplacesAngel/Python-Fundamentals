@@ -24,8 +24,12 @@ peaks = {'African': 'Kilimanjaro',
          'Pacific' : 'Mauna Kea',
          'South_American' : 'Aconcagua'}
 
-print(f"The fourth nearest star is {fourth_star}")
 
-for location in peaks:
-    if location == 'Pacific':
-        print(peaks[location])
+def pacific_rim (collection):
+    for thing in collection:
+        if thing == 'Pacific':
+            return collection[thing]
+
+
+print(f"The fourth nearest star is {fourth_star}")
+print(pacific_rim(peaks))
