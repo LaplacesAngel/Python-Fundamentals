@@ -1,2 +1,5 @@
 value = input('Enter a number: ')
-print(value)
+
+value = float(value)
+print(type(value))
+print(value * 10)
