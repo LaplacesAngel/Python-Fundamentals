@@ -1,12 +1,12 @@
 def plant_recommendation(care):
-    if care = 'low':
+    if care == 'low':
         print('aloe')
     elif care == 'medium':
         print('pothos')
-    elif care == 'medium':
+    elif care == 'high':
         print('orchid')
 
-plant_rec('low')
+plant_recommendation('low')
 plant_recommendation('medium')
 plant_recommendation('high')
 

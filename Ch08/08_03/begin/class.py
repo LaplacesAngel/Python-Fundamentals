@@ -10,4 +10,10 @@ class Attendee:
 
     def addTicket(self):
         self.tickets += 1
-        print('{} tickets increased to {}'.format(self.name, self.tickets))
+        print('{}s tickets increased to {}'.format(self.name, self.tickets))
+
+
+attendee1 = Attendee('Paul', 15)
+
+attendee1.displayAttendee()
+attendee1.addTicket()

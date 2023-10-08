@@ -1,5 +1,5 @@
-infile = open('values.txt', 'rt')
-outfile = open('values-totaled.txt', 'wt')
+infile = open('Ch06/06_02/begin/values.txt', 'r')
+outfile = open('Ch06/06_02/begin/values-totaled.txt', 'w')
 print('Processing input')
 sum = 0
 for line in infile:
